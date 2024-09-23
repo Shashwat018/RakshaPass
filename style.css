@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+  background-image: linear-gradient(
+    to bottom left,
+    #20002cd1,
+    #cbb4d4,
+    #ebca13
+  );
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  min-height: 100vh;
+}
+
+#number {
+  width: 120px;
+  height: 29px;
+  justify-content: center;
+  text-align: center;
+  background-color: #15278d1c;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#output {
+  border: 2px solid black;
+  color: white;
+  width: 20%;
+  margin-top: 12px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(108, 51, 206);
+  border-radius: 10px;
+}
+
+div.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 37px;
+}
+
+div.options label {
+  display: block;
+  background-color: #d29191;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
